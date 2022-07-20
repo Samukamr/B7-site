@@ -132,14 +132,14 @@ nav a:hover {
     margin-top: 13px;
 }
 
-#geral {
+#general {
     display:flex;
     justify-content:center;
 }
-#geral section {
+#general section {
     flex:2;
 }
-#geral aside {
+#general aside {
     flex:1;
 }
 
@@ -159,7 +159,6 @@ nav a:hover {
     margin-top:10;
 }
 .widget_body {
-  width: 270px;
   color:#5c5c5c;
   font-size:14px;
 }
@@ -230,16 +229,16 @@ nav a:hover {
 }
 
 
-.quadrados {
-    width: 300px;
+.squares {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 
-.quadrado,
-.quadrado1,
-.quadrado2,
-.quadrado3 {
+.square,
+.square1,
+.square2,
+.square3 {
     width: 135px;
     margin: 15px;
     margin-left: 0;
@@ -350,7 +349,7 @@ footer .widget_title_text {
     border-top:1px solid #2c2c2c;
     height:40px;
     line-height:40px;
-    color:#5c5c5c;
+    color: #5c5c5c;
     font-size:12px;
     margin-top:30;
 }
@@ -368,7 +367,6 @@ footer .widget_title_text {
     height:3px;
     background-color:#39aae1;
 }
-
 
 @media (max-width:600px) {
     .banner_headline {
@@ -397,8 +395,8 @@ footer .widget_title_text {
     .container {
         flex-direction:column;
     }
-    #geral section,
-    #geral aside {
+    #general section,
+    #general aside {
         padding:20px; 
     }
     .footer_menu {
