@@ -228,12 +228,11 @@ nav a:hover {
     margin-bottom: -1px;
 }
 
-
 .squares {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-}
+};
 
 .square,
 .square1,
